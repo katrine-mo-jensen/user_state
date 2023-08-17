@@ -4,7 +4,7 @@ export function Greeting() {
   const [name, setName] = useState("Steve");
   return (
     <>
-      <h1>Send en hilsen til {name}</h1>
+      <h2>Send en hilsen til {name}</h2>
       <input type="text" onInput={event => setName(event.target.value)}/>
     </>
   );

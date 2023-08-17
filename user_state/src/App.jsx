@@ -1,15 +1,14 @@
-
-import './App.css'
-import { Greeting } from './component/greeting'
+import "./App.css";
+import { Counting } from "./component/Counting";
+import { Greeting } from "./component/Greeting";
 
 function App() {
-  
-  
   return (
     <>
-    <Greeting/>
+      <Greeting />
+      <Counting />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
